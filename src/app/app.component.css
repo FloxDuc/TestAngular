@@ -1,0 +1,35 @@
+/** style */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+ul{
+  list-style-type: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+button{
+    text-rendering: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    text-transform: inherit;
+    text-indent: inherit;
+    text-shadow: inherit;
+    display: inherit;
+    text-align: inherit;
+    margin: inherit;
+    font: inherit;
+}
+.content{
+  background: #BBBBBB;
+  padding: 12px 18px;
+  margin-top:12px;
+  display:block;
+  height:90vh;
+}
