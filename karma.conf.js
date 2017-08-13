@@ -5,7 +5,12 @@ module.exports = function (config) {
   config.set({
     basePath: '',
     frameworks: ['jasmine', '@angular/cli'],
+    files:[
+      'src/**/*.ts'
+    ],
     plugins: [
+      require('karma-coverage'),
+      require('karma-teamcity-reporter'),
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
       require('karma-jasmine-html-reporter'),
