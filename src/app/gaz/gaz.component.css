@@ -1,0 +1,36 @@
+.input{
+  margin-bottom: 18px;
+  display: block;
+  padding: 9px;
+  border:1px solid #DDDDDD;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  max-width:250px;
+}
+
+label{
+  display: block;
+  float: left;
+  margin-top: -19px;
+  background: #BBBBBB;
+  height: 14px;
+  padding: 2px 5px 2px 5px;
+  color: #11111;
+  font-size: 14px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input > input{
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  display: block;
+  outline: none;
+  border: none;
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

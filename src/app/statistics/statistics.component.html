@@ -1,0 +1,26 @@
+<h1> Liste des relevé par persone </h1>
+<br/>
+<form (ngSubmit)="onSubmit()">
+  <div class="input">
+    <label for="name">Nom d'utilisateur</label>
+    <input type="text" name="userName" [(ngModel)]="userName">
+  </div>
+</form>
+<table>
+  <thead>
+  <tr>
+    <th>Utilisateur</th>
+    <th>kilometrage</th>
+    <th>montant</th>
+    <th>Total/Utilisateur</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let gaz of getList()">
+      <td class="text">{{ gaz.userName }}</td>
+      <td class="number">{{ gaz.distance | kilometerFormat }}</td>
+      <td class="number">{{ gaz.amount }}€</td>
+      <td class="text">TODO</td>
+    </tr>
+  </tbody>
+</table>

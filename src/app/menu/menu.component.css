@@ -1,0 +1,140 @@
+nav.navbar-fixed-top{
+  display:block;
+  float:left;
+	font-size: 24px;
+	padding: 12px 0px;
+  width:100%;
+  height:75px;
+	}
+
+.headband{
+  display:block;
+  background: #DFDFDF url(./../../img/bandeau.png) no-repeat right bottom;
+  background-size: 100% 100%;
+  top:0;
+  left:0;
+  width:100%;
+  height:75px;
+}
+
+.navbar-tabs{
+  float:left;
+  background-color:#DCDCDC;
+  border:2px solid;
+  text-align:center;
+  /*pour avoir un effet "outset" avec IE :*/
+  border-color:#DCDCDC #696969 #696969 #DCDCDC;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.navbar-tabs-margin-left{
+  margin-left : 16px;
+}
+
+.navbar-tabs-margin-right{
+  margin-right:16px;
+}
+
+.navbar-fixed-right{
+  float:right;
+}
+
+/* Style The Dropdown Button */
+.dropdown-button {
+    width:100%;
+    height:100%;
+    border: none;
+    cursor: pointer;
+    font-size:inherit;
+    margin:0px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-menu  {
+    position: relative;
+    display: inline-block;
+    min-width:200px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DFDFDF;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin:0px;
+    padding:0px;
+
+}
+
+.brand{
+  background: #DFDFDF url(./../../img/icone.png) no-repeat right bottom;
+  background-size:contain;
+  padding: 0px 16px;
+  margin-bottom:5px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content li {
+    color: black;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-color: #CCCCCC ;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {
+  background-color: #CCCCCC;
+  border-color: #DFDFDF ;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown-menu:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-menu:hover .dropdown-button {
+    background-color: #CCCCCC;
+}
+
+.separator {
+  background-color: #BBB;
+  padding:2px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  cursor: none;
+}
+/***/
+.navbar-text{
+    padding: 12px 16px;
+}
+
+/** remove unwanted style.*/
+ul{
+  list-style-type: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+button{
+    text-rendering: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    text-transform: inherit;
+    text-indent: inherit;
+    text-shadow: inherit;
+    display: inherit;
+    text-align: inherit;
+    margin: inherit;
+    font: inherit;
+}

@@ -1,0 +1,20 @@
+<h1> Ajout d'un nouveau relevé </h1>
+<br/>
+<form (ngSubmit)="onSubmit()">
+  <div class="input">
+    <label for="name">Nom d'utilisateur</label>
+    <input type="text" name="amount" [(ngModel)]="gaz.userName" appErrorMessage>
+  </div>
+  <div class="input">
+    <label for="kilometers"> Kilométrage </label>
+    <input type="number"  name="kilometers" [(ngModel)]="gaz.distance" appErrorMessage [bgColor]="'rgb(255, 100, 100)'">
+  </div>
+  <div class="input">
+    <label for="amount">Montant </label>
+    <input type="number" name="amount" [(ngModel)]="gaz.amount">
+  </div>
+  <div class="button">
+    <input type="submit" value="Envoyer" />
+    <input type="reset" value="Annuler" />
+  </div>
+</form>
